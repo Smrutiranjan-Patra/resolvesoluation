@@ -36,14 +36,14 @@
   padding: 0.8em;
   border-radius: 1em;
   transition: ease 0.5s;
-  background-color: rgba(0, 0, 0, 0.233);
+  background-color: lightskyblue;
   box-shadow: 24px 24px 59px #b0b0b044, -24px -24px 59px #ffffff65;
 }
 .item:hover {
   border: 1px solid aliceblue;
   width: 82%;
   color: aliceblue;
-  background-color: black;
+  background-color: rgba(0, 0, 255, 0.9);
 }
 .companyname {
   margin: 0;

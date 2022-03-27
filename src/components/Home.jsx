@@ -9,7 +9,8 @@ const Home = () => {
     async function getdata() {
       try {
         const datalist = await fetch(
-          "https://72ih8opnm2.execute-api.ap-south-1.amazonaws.com/live"
+          "https://72ih8opnm2.execute-api.ap-south-1.amazonaws.com/live",
+          { mode: "cors" }
         );
         const finalData = await datalist.json();
         setData(finalData);
